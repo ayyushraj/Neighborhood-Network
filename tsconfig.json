@@ -2,6 +2,8 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "allowJs": true,          // Allow JavaScript files in the project
+    "jsx": "react-native",    // Ensure JSX works with React Native
     "paths": {
       "@/*": [
         "./*"
@@ -11,6 +13,8 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "**/*.js",               // Include JavaScript files
+    "**/*.jsx",              // Include JSX files
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
   ]
