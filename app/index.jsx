@@ -11,6 +11,7 @@ const Index = () => {
         }}
         >
         <Text>Help !</Text>
+        <Link href={"/about"}>Go to about</Link>
         </View>
     );
 };
